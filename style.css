@@ -18,7 +18,178 @@ html,body{
 .top{
     width: 100%;
     min-height: 60vh;
-    background-image: url("https://in.images.search.yahoo.com/images/view;_ylt=AwrtiXz3Pe9luIglxGq9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzExZWYzYTg1OTJjYTYwOTQ1N2Q0YzlhNGEwZWY3YjM0BGdwb3MDMTYzBGl0A2Jpbmc-?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dbackground%2Bimage%2Bfor%2Blanding%2Bpage%26type%3DE211IN885G91826%26fr%3Dmcafee%26fr2%3Dpiv-web%26nost%3D1%26tab%3Dorganic%26ri%3D163&w=474&h=275&imgurl=scriptsender.com%2Fwp-content%2Fuploads%2Fimpossible-landing-page-background.jpg&rurl=https%3A%2F%2Fabzlocal.mx%2Fdetails-100-landing-page-background%2F&size=481.3KB&p=background+image+for+landing+page&oid=11ef3a8592ca609457d4c9a4a0ef7b34&fr2=piv-web&fr=mcafee&tt=Details+100+landing+page+background+-+Abzlocal.mx&b=121&ni=21&no=163&ts=&tab=organic&sigr=kgy8HcFg9cg5&sigb=RCISZLO3FE72&sigi=b3RKsNO81ydc&sigt=_XmvBxQQu48k&.crumb=XmYstubZsxy&fr=mcafee&fr2=piv-web&type=E211IN885G91826");
+    background-image: url(uk.webp);
+    
     background-size: cover;
     background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit ;
+    background-color: rgba(0, 0, 0, 0.299);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: azure;
+    bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw ;
+}
+.text .image{
+    background-image: url(uttarakhand_tourism-01.jpg);
+    background-size: cover ;
+    background-position:bottom;
+    height: 200px;
+    width: 400px;
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+
+}
+.b1{
+    width: 30%;
+    min-height: inherit ;
+    background-image: url(mussourie.jpg);
+    background-size: cover;
+    background-position:center ;
+
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color: rgba(0, 0, 0, 0.593);
+    text-align: center;
+    padding: 20px;
+}
+.b2{
+    width: 30%;
+    min-height: inherit ;
+    display: flex;
+    flex-direction: column;
+
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(132215717Nainital_Lake_Main.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: azure;
+    text-align: center;
+    padding: 15px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(first-snowfall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .down .overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(240, 255, 255, 0.24);
+}
+.b3{
+    width: 50%;
+    min-height: inherit ;
+    background-image: url(traditional-dress-of-uttarakhand-1024x684.jpg.crdownload);
+    background-size: cover;
+    background-position: center;
+
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vw 3vh;
+}
+.b3 .overlay p{
+    padding:1.2vh;
+}
+@media(max-width:700px){
+    .rtext{
+        flex-direction: column;
+    }
+    .b3 .overlay{
+        width: 100%;
+        margin-left: initial;
+    }
+}
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 200px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin-top: 10px;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width: 100%;
+        min-height: 30vh;
+
+    }
+    .b2{
+        width: 100%;
+        
+    }
+    .b2 up{
+        min-height: 30vh;
+    }
+    .b3{
+        width: 100%;
+        min-height: 30vh;
+        background-position: left;
+        
+    }
 }
